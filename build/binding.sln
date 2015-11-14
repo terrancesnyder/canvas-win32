@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "canvas", "canvas.vcxproj", "{5F77C0EF-9090-E56B-C7B1-A9F27583811F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "canvas-postbuild", "canvas-postbuild.vcxproj", "{9A6BF1D9-E0C6-77A0-6A2C-CF1FBC21449D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F77C0EF-9090-E56B-C7B1-A9F27583811F} = {5F77C0EF-9090-E56B-C7B1-A9F27583811F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F77C0EF-9090-E56B-C7B1-A9F27583811F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F77C0EF-9090-E56B-C7B1-A9F27583811F}.Debug|Win32.Build.0 = Debug|Win32
+		{5F77C0EF-9090-E56B-C7B1-A9F27583811F}.Release|Win32.ActiveCfg = Release|Win32
+		{5F77C0EF-9090-E56B-C7B1-A9F27583811F}.Release|Win32.Build.0 = Release|Win32
+		{9A6BF1D9-E0C6-77A0-6A2C-CF1FBC21449D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9A6BF1D9-E0C6-77A0-6A2C-CF1FBC21449D}.Debug|Win32.Build.0 = Debug|Win32
+		{9A6BF1D9-E0C6-77A0-6A2C-CF1FBC21449D}.Release|Win32.ActiveCfg = Release|Win32
+		{9A6BF1D9-E0C6-77A0-6A2C-CF1FBC21449D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
